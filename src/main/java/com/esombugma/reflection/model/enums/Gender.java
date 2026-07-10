@@ -1,4 +1,4 @@
-package com.javathinked.reflection.model.enums;
+package com.esombugma.reflection.model.enums;
 
 public enum Gender {
 

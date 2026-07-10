@@ -1,6 +1,6 @@
-package com.javathinked.reflection.repository;
+package com.esombugma.reflection.repository;
 
-import com.javathinked.reflection.model.client.Client;
+import com.esombugma.reflection.model.client.Client;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

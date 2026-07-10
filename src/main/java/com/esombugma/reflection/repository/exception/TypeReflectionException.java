@@ -1,4 +1,4 @@
-package com.javathinked.reflection.repository.exception;
+package com.esombugma.reflection.repository.exception;
 
 public class TypeReflectionException extends RuntimeException {
 

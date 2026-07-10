@@ -1,6 +1,6 @@
-package com.javathinked.reflection.repository;
+package com.esombugma.reflection.repository;
 
-import com.javathinked.reflection.repository.exception.TypeReflectionException;
+import com.esombugma.reflection.repository.exception.TypeReflectionException;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Arrays;
@@ -23,6 +23,7 @@ public class SimpleCrudQueryBuilder<T> {
         var allFields = extractAllFieldsForSelect(type);
         return String.format("SELECT %s FROM %s WHERE %s=?", allFields, table, id);
     }
+
     public String buildFindAllQuery() {
         var allFields = extractAllFieldsForSelect(type);
         return String.format("SELECT %s FROM %s", allFields, table);

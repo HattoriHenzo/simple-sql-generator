@@ -1,6 +1,6 @@
-package com.javathinked.reflection.model.generic;
+package com.esombugma.reflection.model.generic;
 
-import com.javathinked.reflection.model.enums.Gender;
+import com.esombugma.reflection.model.enums.Gender;
 import lombok.Data;
 
 @Data
