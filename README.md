@@ -1,6 +1,11 @@
 # simple-sql-generator
-This project is the companion project for the video on Java Reflection API.
+This project is my version of a simple SQL query generator using Java Reflection API, from the original tutorial on [PluralSight](https://www.pluralsight.com/courses/java-fundamentals-reflection-api-method-handles): 
+**Java 8 Fundamentals: The Java Reflection API Method Handles.**
 The main purpose of the project is to generate CRUD query with defined models or entities.
+
+The Java Reflection API is a powerful tool that allows developers to inspect and manipulate classes, methods, fields, and other elements of the Java programming language at runtime. It provides a way to access and modify the behavior of classes and objects dynamically, which can be useful for various purposes such as debugging, testing, and building frameworks.
+
+In this use case, I use Reflection API to generate SQL queries for CRUD operations based on the structure of the entity classes. All the work is done in the `SimpleCrudQueryBuilder` class, which takes an entity class as input and generates the corresponding SQL queries for CRUD operations.
 
 CRUD stands for:
 - **C**reate   = Insert for the SQL
